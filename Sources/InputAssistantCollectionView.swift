@@ -8,6 +8,10 @@
 
 import UIKit
 
+public var NoSuggestionsLabel: (() -> UILabel) = {
+    return UILabel()
+}
+
 class InputAssistantCollectionView: UICollectionView {
     
     /// Reference to the containing input assistant view
@@ -17,7 +21,7 @@ class InputAssistantCollectionView: UICollectionView {
     var widthConstraint: NSLayoutConstraint?
     
     /// Label to display when there are no suggestions
-    private let noSuggestionsLabel = UILabel()
+    private let noSuggestionsLabel = NoSuggestionsLabel()
     
     init() {
         let layout = UICollectionViewFlowLayout()
@@ -53,7 +57,7 @@ class InputAssistantCollectionView: UICollectionView {
         // Need to reset scrolling position,
         // since the self sizing cells can cause a crash when scrolling back after a reloadData.
         contentOffset = .zero
-		
+        
         noSuggestionsLabel.text = self.inputAssistantView?.dataSource?.textForEmptySuggestionsInInputAssistantView()
         noSuggestionsLabel.isHidden = self.numberOfItems(inSection: 0) > 0
     }
@@ -151,3 +155,5 @@ private class InputAssistantCollectionViewCell: UICollectionViewCell {
         self.label.textColor = isHighlighted ? .black : .white
     }
 }
+
+
