@@ -17,7 +17,7 @@
                BlueprintIdentifier = "3C2E435A201E883E00E4254A"
                BuildableName = "InputAssistant Sample.app"
                BlueprintName = "InputAssistant Sample"
-               ReferencedContainer = "container:InputAssistant.xcodeproj">
+               ReferencedContainer = "container:InputAssistantSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3C2E435A201E883E00E4254A"
             BuildableName = "InputAssistant Sample.app"
             BlueprintName = "InputAssistant Sample"
-            ReferencedContainer = "container:InputAssistant.xcodeproj">
+            ReferencedContainer = "container:InputAssistantSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -58,11 +56,9 @@
             BlueprintIdentifier = "3C2E435A201E883E00E4254A"
             BuildableName = "InputAssistant Sample.app"
             BlueprintName = "InputAssistant Sample"
-            ReferencedContainer = "container:InputAssistant.xcodeproj">
+            ReferencedContainer = "container:InputAssistantSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -77,7 +73,7 @@
             BlueprintIdentifier = "3C2E435A201E883E00E4254A"
             BuildableName = "InputAssistant Sample.app"
             BlueprintName = "InputAssistant Sample"
-            ReferencedContainer = "container:InputAssistant.xcodeproj">
+            ReferencedContainer = "container:InputAssistantSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

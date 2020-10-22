@@ -1,5 +1,5 @@
 .DS_Store
-*.xcworkspacedata
-*.xcuserdatad
-Carthage/
-Pods/
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/

@@ -3,31 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C2E4353201E7FA700E4254A /* InputAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2E4352201E7FA700E4254A /* InputAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C2E4356201E801400E4254A /* InputAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4355201E801400E4254A /* InputAssistantView.swift */; };
+		2F47C908254171E70034DE8F /* InputAssistant in Frameworks */ = {isa = PBXBuildFile; productRef = 2F47C907254171E70034DE8F /* InputAssistant */; };
 		3C2E435E201E883E00E4254A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E435D201E883E00E4254A /* AppDelegate.swift */; };
 		3C2E4360201E883E00E4254A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E435F201E883E00E4254A /* ViewController.swift */; };
 		3C2E4365201E883E00E4254A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E4364201E883E00E4254A /* Assets.xcassets */; };
 		3C2E4368201E883E00E4254A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E4366201E883E00E4254A /* LaunchScreen.storyboard */; };
-		3C2E4370201E8A4C00E4254A /* InputAssistant.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2E4347201E7E6C00E4254A /* InputAssistant.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3C2E4372201E8C2A00E4254A /* InputAssistantCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */; };
-		3C2E4382201EFAD800E4254A /* InputAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4355201E801400E4254A /* InputAssistantView.swift */; };
-		3C2E4383201EFAD800E4254A /* InputAssistantCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3C2E436D201E8A4200E4254A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C2E433E201E7E6C00E4254A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C2E4346201E7E6C00E4254A;
-			remoteInfo = InputAssistant;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3C2E436F201E8A4500E4254A /* Copy Frameworks */ = {
@@ -36,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3C2E4370201E8A4C00E4254A /* InputAssistant.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,81 +28,50 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C2E4347201E7E6C00E4254A /* InputAssistant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = InputAssistant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C2E434B201E7E6C00E4254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C2E4352201E7FA700E4254A /* InputAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputAssistant.h; sourceTree = "<group>"; };
-		3C2E4355201E801400E4254A /* InputAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAssistantView.swift; sourceTree = "<group>"; };
+		2F47C905254171520034DE8F /* InputAssistant2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = InputAssistant2; path = ..; sourceTree = "<group>"; };
 		3C2E435B201E883E00E4254A /* InputAssistant Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InputAssistant Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2E435D201E883E00E4254A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C2E435F201E883E00E4254A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C2E4364201E883E00E4254A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C2E4367201E883E00E4254A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C2E4369201E883E00E4254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAssistantCollectionView.swift; sourceTree = "<group>"; };
-		3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibInputAssistant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3C2E4343201E7E6C00E4254A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C2E4358201E883E00E4254A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C2E4376201EFACD00E4254A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2F47C908254171E70034DE8F /* InputAssistant in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F47C906254171E70034DE8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C2E433D201E7E6C00E4254A = {
 			isa = PBXGroup;
 			children = (
-				3C2E4354201E7FEE00E4254A /* Sources */,
-				3C2E4349201E7E6C00E4254A /* Framework */,
+				2F47C905254171520034DE8F /* InputAssistant2 */,
 				3C2E435C201E883E00E4254A /* Sample */,
 				3C2E4348201E7E6C00E4254A /* Products */,
+				2F47C906254171E70034DE8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3C2E4348201E7E6C00E4254A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C2E4347201E7E6C00E4254A /* InputAssistant.framework */,
 				3C2E435B201E883E00E4254A /* InputAssistant Sample.app */,
-				3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3C2E4349201E7E6C00E4254A /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				3C2E4352201E7FA700E4254A /* InputAssistant.h */,
-				3C2E434B201E7E6C00E4254A /* Info.plist */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		3C2E4354201E7FEE00E4254A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				3C2E4355201E801400E4254A /* InputAssistantView.swift */,
-				3C2E4371201E8C2A00E4254A /* InputAssistantCollectionView.swift */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		3C2E435C201E883E00E4254A /* Sample */ = {
@@ -130,41 +83,12 @@
 				3C2E4366201E883E00E4254A /* LaunchScreen.storyboard */,
 				3C2E4369201E883E00E4254A /* Info.plist */,
 			);
-			path = Sample;
+			name = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		3C2E4344201E7E6C00E4254A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C2E4353201E7FA700E4254A /* InputAssistant.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		3C2E4346201E7E6C00E4254A /* InputAssistant */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C2E434F201E7E6C00E4254A /* Build configuration list for PBXNativeTarget "InputAssistant" */;
-			buildPhases = (
-				3C2E4342201E7E6C00E4254A /* Sources */,
-				3C2E4343201E7E6C00E4254A /* Frameworks */,
-				3C2E4344201E7E6C00E4254A /* Headers */,
-				3C2E4345201E7E6C00E4254A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = InputAssistant;
-			productName = InputAssistant;
-			productReference = 3C2E4347201E7E6C00E4254A /* InputAssistant.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3C2E435A201E883E00E4254A /* InputAssistant Sample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C2E436A201E883E00E4254A /* Build configuration list for PBXNativeTarget "InputAssistant Sample" */;
@@ -177,28 +101,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				3C2E436E201E8A4200E4254A /* PBXTargetDependency */,
 			);
 			name = "InputAssistant Sample";
+			packageProductDependencies = (
+				2F47C907254171E70034DE8F /* InputAssistant */,
+			);
 			productName = "InputAssistant Sample";
 			productReference = 3C2E435B201E883E00E4254A /* InputAssistant Sample.app */;
 			productType = "com.apple.product-type.application";
-		};
-		3C2E4378201EFACD00E4254A /* libInputAssistant */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C2E437F201EFACD00E4254A /* Build configuration list for PBXNativeTarget "libInputAssistant" */;
-			buildPhases = (
-				3C2E4375201EFACD00E4254A /* Sources */,
-				3C2E4376201EFACD00E4254A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libInputAssistant;
-			productName = libInputAssistant;
-			productReference = 3C2E4379201EFACD00E4254A /* liblibInputAssistant.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -210,21 +120,13 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Ian McDowell";
 				TargetAttributes = {
-					3C2E4346201E7E6C00E4254A = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1020;
-					};
 					3C2E435A201E883E00E4254A = {
-						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1020;
-					};
-					3C2E4378201EFACD00E4254A = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
 					};
 				};
 			};
-			buildConfigurationList = 3C2E4341201E7E6C00E4254A /* Build configuration list for PBXProject "InputAssistant" */;
+			buildConfigurationList = 3C2E4341201E7E6C00E4254A /* Build configuration list for PBXProject "InputAssistantSample" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,21 +139,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C2E4346201E7E6C00E4254A /* InputAssistant */,
-				3C2E4378201EFACD00E4254A /* libInputAssistant */,
 				3C2E435A201E883E00E4254A /* InputAssistant Sample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3C2E4345201E7E6C00E4254A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C2E4359201E883E00E4254A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,15 +157,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C2E4342201E7E6C00E4254A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C2E4372201E8C2A00E4254A /* InputAssistantCollectionView.swift in Sources */,
-				3C2E4356201E801400E4254A /* InputAssistantView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3C2E4357201E883E00E4254A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,24 +166,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C2E4375201EFACD00E4254A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C2E4383201EFAD800E4254A /* InputAssistantCollectionView.swift in Sources */,
-				3C2E4382201EFAD800E4254A /* InputAssistantView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3C2E436E201E8A4200E4254A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C2E4346201E7E6C00E4254A /* InputAssistant */;
-			targetProxy = 3C2E436D201E8A4200E4254A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3C2E4366201E883E00E4254A /* LaunchScreen.storyboard */ = {
@@ -364,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -435,55 +302,13 @@
 			};
 			name = Release;
 		};
-		3C2E4350201E7E6C00E4254A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.ianmcdowell.InputAssistant;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		3C2E4351201E7E6C00E4254A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.ianmcdowell.InputAssistant;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		3C2E436B201E883E00E4254A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Sample/Info.plist;
+				DEVELOPMENT_TEAM = E78WKS7W4U;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,31 +323,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Sample/Info.plist;
+				DEVELOPMENT_TEAM = E78WKS7W4U;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ianmcdowell.InputAssistant-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3C2E4380201EFACD00E4254A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		3C2E4381201EFACD00E4254A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -577,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -590,43 +398,13 @@
 			};
 			name = VPP;
 		};
-		C967A07E249D67B700EE3871 /* VPP */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Framework/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.ianmcdowell.InputAssistant;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = VPP;
-		};
-		C967A07F249D67B700EE3871 /* VPP */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = VPP;
-		};
 		C967A080249D67B700EE3871 /* VPP */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Sample/Info.plist;
+				DEVELOPMENT_TEAM = E78WKS7W4U;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,22 +417,12 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C2E4341201E7E6C00E4254A /* Build configuration list for PBXProject "InputAssistant" */ = {
+		3C2E4341201E7E6C00E4254A /* Build configuration list for PBXProject "InputAssistantSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C2E434D201E7E6C00E4254A /* Debug */,
 				C967A07D249D67B700EE3871 /* VPP */,
 				3C2E434E201E7E6C00E4254A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C2E434F201E7E6C00E4254A /* Build configuration list for PBXNativeTarget "InputAssistant" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C2E4350201E7E6C00E4254A /* Debug */,
-				C967A07E249D67B700EE3871 /* VPP */,
-				3C2E4351201E7E6C00E4254A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -669,17 +437,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3C2E437F201EFACD00E4254A /* Build configuration list for PBXNativeTarget "libInputAssistant" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C2E4380201EFACD00E4254A /* Debug */,
-				C967A07F249D67B700EE3871 /* VPP */,
-				3C2E4381201EFACD00E4254A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F47C907254171E70034DE8F /* InputAssistant */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InputAssistant;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C2E433E201E7E6C00E4254A /* Project object */;
 }
